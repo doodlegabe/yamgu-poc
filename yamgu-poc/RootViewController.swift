@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SwiftLocation
 
 class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
@@ -15,8 +16,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        // Configure the page view controller and add it as a child view controller.
+        print( "view loaded")
         self.pageViewController = UIPageViewController(transitionStyle: .pageCurl, navigationOrientation: .horizontal, options: nil)
         self.pageViewController!.delegate = self
 
@@ -37,6 +37,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
         self.pageViewController!.view.frame = pageViewRect
 
         self.pageViewController!.didMove(toParent: self)
+        
+        print(self.getInitialLocation())
     }
 
     var modelController: ModelController {
@@ -79,7 +81,23 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
         return .mid
     }
+    
+    // MARK: - Get initial Location
+    
+    func getInitialLocation() ->  String {
+        Locator.requestAuthorizationIfNeeded(.always)
+        Locator.currentPosition(accuracy: .city,
+                                onSuccess: {
+                                    loc in
+                                    print(loc.coordinate.latitude)
+                                    print(loc.coordinate.longitude)
 
+        },
+                                onFail: {
+                                    err, last in print(err)
+                                    
+        })
+        return "ok"
+    }
 
 }
-
