@@ -16,7 +16,7 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print( "view loaded")
+        
         self.pageViewController = UIPageViewController(transitionStyle: .pageCurl, navigationOrientation: .horizontal, options: nil)
         self.pageViewController!.delegate = self
 
@@ -38,7 +38,8 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
 
         self.pageViewController!.didMove(toParent: self)
         
-        print(self.getInitialLocation())
+        self.getInitialLocation()
+        
     }
 
     var modelController: ModelController {
@@ -84,20 +85,24 @@ class RootViewController: UIViewController, UIPageViewControllerDelegate {
     
     // MARK: - Get initial Location
     
-    func getInitialLocation() ->  String {
+    func getInitialLocation() {
         Locator.requestAuthorizationIfNeeded(.always)
         Locator.currentPosition(accuracy: .city,
                                 onSuccess: {
                                     loc in
-                                    print(loc.coordinate.latitude)
-                                    print(loc.coordinate.longitude)
-
+                                    YamguWebServiceProvider.request(.citySearch(languageCode:"en", query:"", lat:loc.coordinate.latitude, lng: loc.coordinate.longitude, radius: 100, page: 1)){result in
+                                        var msg = "Couldn't Access API"
+                                        if case let .success(response) = result{
+                                            let jsonString = try? response.mapString()
+                                            msg = jsonString ?? msg
+                                        }
+                                            print(msg)
+                                    }
         },
                                 onFail: {
                                     err, last in print(err)
                                     
         })
-        return "ok"
     }
 
 }

@@ -7,21 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46EED95D338B3B9B6326F462 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EEDBD3BF17DF9B02063575 /* Config.swift */; };
 		700DE2A7AB0C20F93D3965CA /* Pods_yamgu_poc.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17AAABC7848DD45E395A9A17 /* Pods_yamgu_poc.framework */; };
-		DA04749D21DF94AB00CB01A6 /* splash-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = DA04749C21DF94AB00CB01A6 /* splash-screen.png */; };
-		DA0474A621DFAD5900CB01A6 /* yamgu_icon@60.png in Resources */ = {isa = PBXBuildFile; fileRef = DA04749E21DFAD5900CB01A6 /* yamgu_icon@60.png */; };
-		DA0474A721DFAD5900CB01A6 /* yamgu_icon@40.png in Resources */ = {isa = PBXBuildFile; fileRef = DA04749F21DFAD5900CB01A6 /* yamgu_icon@40.png */; };
-		DA0474A821DFAD5900CB01A6 /* yamgu_icon@80.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474A021DFAD5900CB01A6 /* yamgu_icon@80.png */; };
-		DA0474A921DFAD5900CB01A6 /* yamgu_icon@180.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474A121DFAD5900CB01A6 /* yamgu_icon@180.png */; };
-		DA0474AA21DFAD5900CB01A6 /* yamgu_icon@87.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474A221DFAD5900CB01A6 /* yamgu_icon@87.png */; };
-		DA0474AB21DFAD5900CB01A6 /* yamgu_icon@120.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474A321DFAD5900CB01A6 /* yamgu_icon@120.png */; };
-		DA0474AD21DFAD5900CB01A6 /* yamgu_icon@58.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474A521DFAD5900CB01A6 /* yamgu_icon@58.png */; };
-		DA0474B421DFAF2500CB01A6 /* yamgu_icon@152.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474AE21DFAF2400CB01A6 /* yamgu_icon@152.png */; };
-		DA0474B521DFAF2500CB01A6 /* yamgu_icon@29.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474AF21DFAF2400CB01A6 /* yamgu_icon@29.png */; };
-		DA0474B621DFAF2500CB01A6 /* yamgu_icon@20.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474B021DFAF2400CB01A6 /* yamgu_icon@20.png */; };
-		DA0474B721DFAF2500CB01A6 /* yamgu_icon@167.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474B121DFAF2400CB01A6 /* yamgu_icon@167.png */; };
-		DA0474B821DFAF2500CB01A6 /* yamgu_icon@76.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474B221DFAF2500CB01A6 /* yamgu_icon@76.png */; };
-		DA0474B921DFAF2500CB01A6 /* yamgu_icon@1024.png in Resources */ = {isa = PBXBuildFile; fileRef = DA0474B321DFAF2500CB01A6 /* yamgu_icon@1024.png */; };
 		DA5008DA21B5567E0023B5F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5008D921B5567E0023B5F5 /* AppDelegate.swift */; };
 		DA5008DC21B5567E0023B5F5 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5008DB21B5567E0023B5F5 /* RootViewController.swift */; };
 		DA5008DE21B5567E0023B5F5 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5008DD21B5567E0023B5F5 /* DataViewController.swift */; };
@@ -29,26 +16,16 @@
 		DA5008E321B5567E0023B5F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5008E121B5567E0023B5F5 /* Main.storyboard */; };
 		DA5008E521B556810023B5F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA5008E421B556810023B5F5 /* Assets.xcassets */; };
 		DA5008E821B556810023B5F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA5008E621B556810023B5F5 /* LaunchScreen.storyboard */; };
+		DACE60E721E36FCB008A72B1 /* WebConnectionProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE60E621E36FCB008A72B1 /* WebConnectionProvider.swift */; };
+		DACE60E921E37C37008A72B1 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACE60E821E37C37008A72B1 /* City.swift */; };
+		DACE60ED21E39B62008A72B1 /* splash-screen.png in Resources */ = {isa = PBXBuildFile; fileRef = DACE60EC21E39B62008A72B1 /* splash-screen.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		17AAABC7848DD45E395A9A17 /* Pods_yamgu_poc.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_yamgu_poc.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3645B081DFABA274653986F5 /* Pods-yamgu-poc.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yamgu-poc.release.xcconfig"; path = "Pods/Target Support Files/Pods-yamgu-poc/Pods-yamgu-poc.release.xcconfig"; sourceTree = "<group>"; };
+		46EEDBD3BF17DF9B02063575 /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 		A2A5F3453D5CFA311C378BF9 /* Pods-yamgu-poc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yamgu-poc.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yamgu-poc/Pods-yamgu-poc.debug.xcconfig"; sourceTree = "<group>"; };
-		DA04749C21DF94AB00CB01A6 /* splash-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-screen.png"; sourceTree = "<group>"; };
-		DA04749E21DFAD5900CB01A6 /* yamgu_icon@60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@60.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@60.png"; sourceTree = "<group>"; };
-		DA04749F21DFAD5900CB01A6 /* yamgu_icon@40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@40.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@40.png"; sourceTree = "<group>"; };
-		DA0474A021DFAD5900CB01A6 /* yamgu_icon@80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@80.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@80.png"; sourceTree = "<group>"; };
-		DA0474A121DFAD5900CB01A6 /* yamgu_icon@180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@180.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@180.png"; sourceTree = "<group>"; };
-		DA0474A221DFAD5900CB01A6 /* yamgu_icon@87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@87.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@87.png"; sourceTree = "<group>"; };
-		DA0474A321DFAD5900CB01A6 /* yamgu_icon@120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@120.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@120.png"; sourceTree = "<group>"; };
-		DA0474A521DFAD5900CB01A6 /* yamgu_icon@58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@58.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@58.png"; sourceTree = "<group>"; };
-		DA0474AE21DFAF2400CB01A6 /* yamgu_icon@152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@152.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@152.png"; sourceTree = "<group>"; };
-		DA0474AF21DFAF2400CB01A6 /* yamgu_icon@29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@29.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@29.png"; sourceTree = "<group>"; };
-		DA0474B021DFAF2400CB01A6 /* yamgu_icon@20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@20.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@20.png"; sourceTree = "<group>"; };
-		DA0474B121DFAF2400CB01A6 /* yamgu_icon@167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@167.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@167.png"; sourceTree = "<group>"; };
-		DA0474B221DFAF2500CB01A6 /* yamgu_icon@76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@76.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@76.png"; sourceTree = "<group>"; };
-		DA0474B321DFAF2500CB01A6 /* yamgu_icon@1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "yamgu_icon@1024.png"; path = "../../../Desktop/yamgu icon set/yamgu_icon@1024.png"; sourceTree = "<group>"; };
 		DA5008D621B5567E0023B5F5 /* yamgu-poc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yamgu-poc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA5008D921B5567E0023B5F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA5008DB21B5567E0023B5F5 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -58,6 +35,22 @@
 		DA5008E421B556810023B5F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA5008E721B556810023B5F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA5008E921B556810023B5F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DACE60D821E36B6A008A72B1 /* yamgu_icon@120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@120.png"; sourceTree = "<group>"; };
+		DACE60D921E36B6B008A72B1 /* yamgu_icon@40.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@40.png"; sourceTree = "<group>"; };
+		DACE60DA21E36B6B008A72B1 /* yamgu_icon@58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@58.png"; sourceTree = "<group>"; };
+		DACE60DB21E36B6B008A72B1 /* yamgu_icon@29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@29.png"; sourceTree = "<group>"; };
+		DACE60DC21E36B6B008A72B1 /* yamgu_icon@152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@152.png"; sourceTree = "<group>"; };
+		DACE60DD21E36B6B008A72B1 /* yamgu_icon@87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@87.png"; sourceTree = "<group>"; };
+		DACE60DE21E36B6B008A72B1 /* yamgu_icon@180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@180.png"; sourceTree = "<group>"; };
+		DACE60DF21E36B6B008A72B1 /* yamgu_icon@60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@60.png"; sourceTree = "<group>"; };
+		DACE60E021E36B6B008A72B1 /* yamgu_icon@76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@76.png"; sourceTree = "<group>"; };
+		DACE60E121E36B6B008A72B1 /* yamgu_icon@1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@1024.png"; sourceTree = "<group>"; };
+		DACE60E221E36B6B008A72B1 /* yamgu_icon@167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@167.png"; sourceTree = "<group>"; };
+		DACE60E321E36B6B008A72B1 /* yamgu_icon@20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@20.png"; sourceTree = "<group>"; };
+		DACE60E421E36B6B008A72B1 /* yamgu_icon@80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yamgu_icon@80.png"; sourceTree = "<group>"; };
+		DACE60E621E36FCB008A72B1 /* WebConnectionProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebConnectionProvider.swift; sourceTree = "<group>"; };
+		DACE60E821E37C37008A72B1 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+		DACE60EC21E39B62008A72B1 /* splash-screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splash-screen.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,30 +103,49 @@
 		DA5008D821B5567E0023B5F5 /* yamgu-poc */ = {
 			isa = PBXGroup;
 			children = (
-				DA04749C21DF94AB00CB01A6 /* splash-screen.png */,
+				DACE60E821E37C37008A72B1 /* City.swift */,
+				DACE60E521E36F67008A72B1 /* Assets */,
 				DA5008D921B5567E0023B5F5 /* AppDelegate.swift */,
 				DA5008DB21B5567E0023B5F5 /* RootViewController.swift */,
 				DA5008DD21B5567E0023B5F5 /* DataViewController.swift */,
 				DA5008DF21B5567E0023B5F5 /* ModelController.swift */,
 				DA5008E121B5567E0023B5F5 /* Main.storyboard */,
 				DA5008E421B556810023B5F5 /* Assets.xcassets */,
-				DA0474B021DFAF2400CB01A6 /* yamgu_icon@20.png */,
-				DA0474AF21DFAF2400CB01A6 /* yamgu_icon@29.png */,
-				DA0474B221DFAF2500CB01A6 /* yamgu_icon@76.png */,
-				DA0474AE21DFAF2400CB01A6 /* yamgu_icon@152.png */,
-				DA0474B121DFAF2400CB01A6 /* yamgu_icon@167.png */,
-				DA0474B321DFAF2500CB01A6 /* yamgu_icon@1024.png */,
-				DA04749F21DFAD5900CB01A6 /* yamgu_icon@40.png */,
-				DA0474A521DFAD5900CB01A6 /* yamgu_icon@58.png */,
-				DA04749E21DFAD5900CB01A6 /* yamgu_icon@60.png */,
-				DA0474A021DFAD5900CB01A6 /* yamgu_icon@80.png */,
-				DA0474A221DFAD5900CB01A6 /* yamgu_icon@87.png */,
-				DA0474A321DFAD5900CB01A6 /* yamgu_icon@120.png */,
-				DA0474A121DFAD5900CB01A6 /* yamgu_icon@180.png */,
+				DACE60D721E36B5A008A72B1 /* Icon Assets */,
 				DA5008E621B556810023B5F5 /* LaunchScreen.storyboard */,
 				DA5008E921B556810023B5F5 /* Info.plist */,
+				DACE60E621E36FCB008A72B1 /* WebConnectionProvider.swift */,
+				46EEDBD3BF17DF9B02063575 /* Config.swift */,
 			);
 			path = "yamgu-poc";
+			sourceTree = "<group>";
+		};
+		DACE60D721E36B5A008A72B1 /* Icon Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DACE60E321E36B6B008A72B1 /* yamgu_icon@20.png */,
+				DACE60DB21E36B6B008A72B1 /* yamgu_icon@29.png */,
+				DACE60E021E36B6B008A72B1 /* yamgu_icon@76.png */,
+				DACE60DC21E36B6B008A72B1 /* yamgu_icon@152.png */,
+				DACE60E221E36B6B008A72B1 /* yamgu_icon@167.png */,
+				DACE60E121E36B6B008A72B1 /* yamgu_icon@1024.png */,
+				DACE60D921E36B6B008A72B1 /* yamgu_icon@40.png */,
+				DACE60DA21E36B6B008A72B1 /* yamgu_icon@58.png */,
+				DACE60DF21E36B6B008A72B1 /* yamgu_icon@60.png */,
+				DACE60E421E36B6B008A72B1 /* yamgu_icon@80.png */,
+				DACE60DD21E36B6B008A72B1 /* yamgu_icon@87.png */,
+				DACE60D821E36B6A008A72B1 /* yamgu_icon@120.png */,
+				DACE60DE21E36B6B008A72B1 /* yamgu_icon@180.png */,
+			);
+			path = "Icon Assets";
+			sourceTree = "<group>";
+		};
+		DACE60E521E36F67008A72B1 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				DACE60EC21E39B62008A72B1 /* splash-screen.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,22 +208,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA0474B621DFAF2500CB01A6 /* yamgu_icon@20.png in Resources */,
-				DA0474AD21DFAD5900CB01A6 /* yamgu_icon@58.png in Resources */,
-				DA0474A621DFAD5900CB01A6 /* yamgu_icon@60.png in Resources */,
-				DA0474AB21DFAD5900CB01A6 /* yamgu_icon@120.png in Resources */,
-				DA0474A921DFAD5900CB01A6 /* yamgu_icon@180.png in Resources */,
-				DA0474A821DFAD5900CB01A6 /* yamgu_icon@80.png in Resources */,
-				DA0474B521DFAF2500CB01A6 /* yamgu_icon@29.png in Resources */,
-				DA04749D21DF94AB00CB01A6 /* splash-screen.png in Resources */,
+				DACE60ED21E39B62008A72B1 /* splash-screen.png in Resources */,
 				DA5008E821B556810023B5F5 /* LaunchScreen.storyboard in Resources */,
-				DA0474B421DFAF2500CB01A6 /* yamgu_icon@152.png in Resources */,
-				DA0474B821DFAF2500CB01A6 /* yamgu_icon@76.png in Resources */,
-				DA0474A721DFAD5900CB01A6 /* yamgu_icon@40.png in Resources */,
-				DA0474AA21DFAD5900CB01A6 /* yamgu_icon@87.png in Resources */,
-				DA0474B921DFAF2500CB01A6 /* yamgu_icon@1024.png in Resources */,
 				DA5008E521B556810023B5F5 /* Assets.xcassets in Resources */,
-				DA0474B721DFAF2500CB01A6 /* yamgu_icon@167.png in Resources */,
 				DA5008E321B5567E0023B5F5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,10 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACE60E721E36FCB008A72B1 /* WebConnectionProvider.swift in Sources */,
 				DA5008DC21B5567E0023B5F5 /* RootViewController.swift in Sources */,
+				DACE60E921E37C37008A72B1 /* City.swift in Sources */,
 				DA5008E021B5567E0023B5F5 /* ModelController.swift in Sources */,
 				DA5008DE21B5567E0023B5F5 /* DataViewController.swift in Sources */,
 				DA5008DA21B5567E0023B5F5 /* AppDelegate.swift in Sources */,
+				46EED95D338B3B9B6326F462 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
