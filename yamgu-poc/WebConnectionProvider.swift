@@ -57,7 +57,7 @@ extension YamguWebProvider: TargetType, AccessTokenAuthorizable {
     public var task: Task {
         switch self{
         case .citySearch(let languageCode, let query, let lat, let lng, let radius, let page):
-            return .requestParameters(parameters: ["languageCode": languageCode, "query": query, "lat": lat, "lng": lng, "radius": radius, "page": page], encoding: JSONEncoding.default)
+            return .requestParameters(parameters: ["languageCode": languageCode, "query": query, "lat": lat, "lng": lng, "radius": radius, "page": page], encoding: URLEncoding.default)
         }
     }
     
