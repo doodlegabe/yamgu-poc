@@ -140,7 +140,7 @@ public func materialize<T>(_ f: () throws -> T) -> Result<T, AnyError> {
 
 @available(*, deprecated, renamed: "Result.init(_:)")
 public func materialize<T>(_ f: @autoclosure () throws -> T) -> Result<T, AnyError> {
-	return Result(f)
+	return Result(f())
 }
 
 // MARK: - ErrorConvertible conformance
